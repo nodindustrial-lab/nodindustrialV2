@@ -69,11 +69,8 @@ a {
     padding: 18px 0;
 }
 
-.logo {
-    font-weight: 800;
-    letter-spacing: 0.5px;
-    font-size: 18px;
-}
+    .logo { font-weight: 800; letter-spacing: 0.5px; font-size: 18px; color: inherit; }
+
 
 .menu a {
     margin-left: 24px;
