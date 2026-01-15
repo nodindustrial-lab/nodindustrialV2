@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto | Nod Industrial</title>
+  <meta name="description" content="Contacto Nod Industrial. Solicitud de presupuesto para proyectos industriales y fotovoltaicos.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<header class="navbar">
+  <div class="container nav-content">
+    <div class="logo">NOD INDUSTRIAL</div>
+    <nav class="menu">
+      <a href="index.html">Inicio</a>
+      <a href="services.html">Servicios</a>
+      <a href="about.html">Empresa</a>
+      <a href="contact.html" class="btn-primary">Contacto</a>
+    </nav>
+  </div>
+</header>
+
+<section class="services">
+  <div class="container">
+    <h2>Contacto</h2>
+    <p style="max-width:760px;margin:0 auto 40px;color:#6b7280;">
+      Para una respuesta ágil, indícanos: ubicación del proyecto, fechas previstas, número de personas requeridas,
+      alcance de los trabajos y documentación disponible.
+    </p>
+
+    <form class="contact-form"
+          action="https://formspree.io/f/xzddzynp"
+          method="POST">
+
+      <!-- Anti-spam invisible -->
+      <input type="text" name="_gotcha" style="display:none">
+
+      <!-- Asunto del email -->
+      <input type="hidden" name="_subject" value="Nueva solicitud desde la web - Nod Industrial">
+
+      <div class="form-grid">
+        <input type="text" name="name" placeholder="Nombre y apellidos" required>
+        <input type="text" name="company" placeholder="Empresa (opcional)">
+        <input type="email" name="email" placeholder="Correo electrónico" required>
+        <input type="tel" name="phone" placeholder="Teléfono" required>
+        <input type="text" name="location" placeholder="Ubicación del proyecto (ciudad / país)">
+        <input type="text" name="dates" placeholder="Fechas previstas (inicio / duración)">
+        <input type="text" name="team" placeholder="Nº de personas requeridas (estimación)">
+        <input type="text" name="scope" placeholder="Alcance (fotovoltaica / logística / industrial)">
+      </div>
+
+      <textarea name="message" rows="6" placeholder="Cuéntanos el alcance en 5-10 líneas (documentación disponible, horario, requisitos, etc.)" required></textarea>
+
+      <button type="submit" class="btn-primary big">Enviar solicitud</button>
+
+      <p class="form-note">
+        Al enviar, aceptas que utilicemos estos datos exclusivamente para responder a tu solicitud.
+      </p>
+    </form>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container footer-box">
+    <p>Nod Industrial · Operativa nacional e internacional</p>
+    <p>
+      <a href="mailto:nodindustrial@gmail.com">nodindustrial@gmail.com</a> ·
+      <a href="tel:+34613133308">+34 613 13 33 08</a>
+    </p>
+  </div>
+</footer>
+
+</body>
+</html>
