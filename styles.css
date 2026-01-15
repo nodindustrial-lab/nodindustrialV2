@@ -303,3 +303,13 @@ a {
     padding: 22px;
   }
 }
+/* -------- Lists inside service cards -------- */
+.list{
+  margin-top: 14px;
+  padding-left: 18px;
+  color: var(--text-muted);
+  font-size: 14px;
+}
+.list li{
+  margin: 6px 0;
+}
