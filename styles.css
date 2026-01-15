@@ -313,3 +313,66 @@ a {
 .list li{
   margin: 6px 0;
 }
+/* ===== Mobile polish (V2) ===== */
+
+/* Mejoras generales de toque */
+.hero-text h1 { letter-spacing: -0.2px; }
+.hero-img img { width: 100%; height: auto; }
+
+/* Navegación: que no “reviente” en móvil */
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: flex-end;
+}
+
+/* Botones: que no queden “micro” ni se desalineen */
+.hero-btns {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+/* Ajustes fuertes en móvil */
+@media (max-width: 700px) {
+  .nav-content {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 14px 0;
+  }
+
+  .menu {
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  /* Botones a ancho completo: sensación premium */
+  .hero-btns a {
+    width: 100%;
+    text-align: center;
+  }
+
+  /* Hero más compacto */
+  .hero {
+    padding: 44px 0;
+  }
+
+  .hero-grid {
+    gap: 26px;
+  }
+
+  .hero-text h1 {
+    font-size: 30px;
+  }
+
+  .hero-text .lead {
+    font-size: 16px;
+  }
+
+  /* Cards con menos “aire” para no alargar demasiado */
+  .card {
+    padding: 20px;
+  }
+}
