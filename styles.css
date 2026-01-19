@@ -130,7 +130,7 @@ img{ max-width:100%; display:block; }
   inset:0;
   background:
     linear-gradient(90deg, rgba(255,255,255,.92), rgba(255,255,255,.70) 55%, rgba(255,255,255,.35)),
-    url("assets/img/nodindustrial_intralogistica_03.jpg") center/cover no-repeat;
+    url("assets/img/nodindustrial_intralogistica_08.jpg") center/cover no-repeat;
   opacity: 1;
   transform: scale(1.02);
 }
