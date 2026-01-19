@@ -4,12 +4,11 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Contacto | NOD Industrial</title>
-  <meta name="description" content="Contacta con NOD Industrial. Envíanos los datos del proyecto y te respondemos con propuesta operativa y presupuesto.">
+  <meta name="description" content="Contacta con NOD Industrial. Envíanos los datos del proyecto y te respondemos con propuesta operativa para ejecución mecánica industrial. España y Unión Europea." />
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-<!-- NAVBAR unificada -->
 <header class="navbar">
   <div class="container nav-content">
     <a class="logo" href="index.html">NOD INDUSTRIAL</a>
@@ -24,25 +23,28 @@
 
 <main class="container">
 
-  <!-- TITULAR -->
   <section class="section">
     <span class="badge">Respuesta rápida y operativa</span>
     <h2>Contacto</h2>
     <p class="sub">
-      Para responder ágil, indícanos ubicación del proyecto, fechas previstas, alcance de trabajo,
-      número de personas requeridas y documentación disponible (planos, PRL, etc.).
+      Para preparar una propuesta operativa necesitamos: ubicación, fechas, alcance mecánico, nº de personas, turnos y documentación disponible (planos/PRL).
+      Operativa en España y Unión Europea, y posibilidad fuera de la UE bajo acuerdo.
     </p>
+
+    <div class="cta-slab">
+      <div>
+        <strong>VÍA A / VÍA B</strong>
+        <span><strong>VÍA A (estándar):</strong> montaje mecánico siguiendo planos del cliente. <strong>VÍA B (si se acuerda):</strong> soporte técnico puntual para ajustes de campo.</span>
+      </div>
+      <a class="btn" href="tel:+34613133308">Llamar</a>
+    </div>
   </section>
 
-  <!-- FORMULARIO -->
   <section class="section">
     <form class="form" action="https://formspree.io/f/xzddzynp" method="POST">
-      
-      <!-- Honeypot anti-spam -->
       <input type="text" name="_gotcha" style="display:none">
 
       <div class="form-grid">
-        
         <div class="field">
           <label for="name">Nombre y apellidos</label>
           <input id="name" name="name" type="text" autocomplete="name" placeholder="Tu nombre" required>
@@ -72,33 +74,30 @@
           <label for="dates">Fechas previstas</label>
           <input id="dates" name="dates" type="text" placeholder="Inicio / duración / ventana de trabajo">
         </div>
-
       </div>
 
       <div class="field" style="margin-top:12px;">
-        <label for="message">Mensaje</label>
-        <textarea id="message" name="message" placeholder="Describe alcance, nº personas, turnos, requisitos PRL, documentación disponible..." required></textarea>
+        <label for="message">Detalles del proyecto</label>
+        <textarea id="message" name="message" placeholder="Alcance mecánico, nº de personas, turnos, frentes/zonas, accesos/medios auxiliares, requisitos PRL y documentación disponible..." required></textarea>
       </div>
 
       <div class="form-actions">
-        <button class="btn primary" type="submit">Enviar solicitud</button>
+        <button class="btn primary" type="submit">Solicitar propuesta</button>
         <div class="helper">
-          Al enviar, aceptas que utilicemos estos datos exclusivamente para responder a tu solicitud.
+          Usaremos estos datos exclusivamente para responder a tu solicitud y preparar una propuesta operativa.
         </div>
       </div>
     </form>
   </section>
 
-  <!-- CONTACTO DIRECTO -->
   <section class="section">
     <div class="cta-slab">
       <div>
         <strong>Contacto directo</strong>
-        <span>Para urgencias: envía ubicación y ventana de trabajo. Priorizamos respuesta operativa.</span>
+        <span>Si es urgente: ubicación + ventana de trabajo + alcance. Priorizamos respuesta operativa.</span>
       </div>
-
-      <div style="display:flex; gap:12px;">
-        <a class="btn" href="mailto:nodindustrial@gmail.com">Email</a>
+      <div style="display:flex; gap:12px; flex-wrap:wrap;">
+        <a class="btn" href="mailto:nodindustrial@gmail.com?subject=Solicitud%20Propuesta%20Operativa%20-%20NOD%20Industrial">Email</a>
         <a class="btn" href="tel:+34613133308">Llamar</a>
       </div>
     </div>
@@ -106,7 +105,11 @@
 
 </main>
 
-<!-- FOOTER -->
 <footer class="footer">
   <div class="container footer-box">
-    <p>NOD Industrial · Operativa nacional
+    <p>NOD Industrial · Operativa España/UE · Posibilidad fuera UE bajo acuerdo · nodindustrial@gmail.com · +34 613 13 33 08</p>
+  </div>
+</footer>
+
+</body>
+</html>
