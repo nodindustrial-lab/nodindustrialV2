@@ -3,44 +3,46 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Contacto | Nod Industrial</title>
-  <meta name="description" content="Contacta con Nod Industrial. Envíanos los datos del proyecto y te respondemos con propuesta operativa y presupuesto.">
+  <title>Contacto | NOD Industrial</title>
+  <meta name="description" content="Contacta con NOD Industrial. Envíanos los datos del proyecto y te respondemos con propuesta operativa y presupuesto.">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-<header class="topbar">
-  <div class="container">
-    <div class="nav">
-      <a class="brand" href="index.html">
-        <span class="brand-badge" aria-hidden="true"></span>
-        <span>NOD INDUSTRIAL</span>
-      </a>
-      <nav class="menu" aria-label="Navegación">
-        <a href="index.html">Inicio</a>
-        <a href="services.html">Servicios</a>
-        <a class="active" href="contact.html">Contacto</a>
-      </nav>
-    </div>
+<!-- NAVBAR unificada -->
+<header class="navbar">
+  <div class="container nav-content">
+    <a class="logo" href="index.html">NOD INDUSTRIAL</a>
+    <nav class="menu" aria-label="Navegación">
+      <a href="index.html">Inicio</a>
+      <a href="services.html">Servicios</a>
+      <a href="about.html">Empresa</a>
+      <a class="active btn-primary" href="contact.html">Contacto</a>
+    </nav>
   </div>
 </header>
 
 <main class="container">
 
+  <!-- TITULAR -->
   <section class="section">
     <span class="badge">Respuesta rápida y operativa</span>
     <h2>Contacto</h2>
     <p class="sub">
-      Para responder ágil: ubicación, fechas previstas, alcance de trabajos, nº de personas requeridas y documentación disponible (planos, PRL, etc.).
+      Para responder ágil, indícanos ubicación del proyecto, fechas previstas, alcance de trabajo,
+      número de personas requeridas y documentación disponible (planos, PRL, etc.).
     </p>
   </section>
 
+  <!-- FORMULARIO -->
   <section class="section">
     <form class="form" action="https://formspree.io/f/xzddzynp" method="POST">
+      
       <!-- Honeypot anti-spam -->
       <input type="text" name="_gotcha" style="display:none">
 
       <div class="form-grid">
+        
         <div class="field">
           <label for="name">Nombre y apellidos</label>
           <input id="name" name="name" type="text" autocomplete="name" placeholder="Tu nombre" required>
@@ -70,6 +72,7 @@
           <label for="dates">Fechas previstas</label>
           <input id="dates" name="dates" type="text" placeholder="Inicio / duración / ventana de trabajo">
         </div>
+
       </div>
 
       <div class="field" style="margin-top:12px;">
@@ -86,26 +89,24 @@
     </form>
   </section>
 
+  <!-- CONTACTO DIRECTO -->
   <section class="section">
     <div class="cta-slab">
       <div>
-        <strong>También puedes contactar directo</strong>
-        <span>Si es urgente, envía ubicación y ventana de trabajo. Priorizamos respuesta operativa.</span>
+        <strong>Contacto directo</strong>
+        <span>Para urgencias: envía ubicación y ventana de trabajo. Priorizamos respuesta operativa.</span>
       </div>
-      <a class="btn" href="mailto:nodindustrial@gmail.com">Email</a>
+
+      <div style="display:flex; gap:12px;">
+        <a class="btn" href="mailto:nodindustrial@gmail.com">Email</a>
+        <a class="btn" href="tel:+34613133308">Llamar</a>
+      </div>
     </div>
   </section>
 
 </main>
 
+<!-- FOOTER -->
 <footer class="footer">
-  <div class="container">
-    <div class="foot-row">
-      <div>Nod Industrial · Operativa nacional e internacional</div>
-      <div>nodindustrial@gmail.com · +34 613 13 33 08</div>
-    </div>
-  </div>
-</footer>
-
-</body>
-</html>
+  <div class="container footer-box">
+    <p>NOD Industrial · Operativa nacional
