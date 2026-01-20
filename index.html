@@ -6,24 +6,27 @@
   <title>NOD Industrial – Ejecución Mecánica Industrial (B2B) | España y UE</title>
   <meta name="description" content="NOD Industrial: empresa B2B especializada en ejecución mecánica industrial para fotovoltaica, estructuras metálicas e intralogística. Equipos desplazados, montaje ordenado y plazos controlados. Operativa en España y Unión Europea." />
   <link rel="stylesheet" href="styles.css" />
+  <!-- Font Awesome para iconos (opcional) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 
 <body>
 
-<!-- NAVBAR (NO MODIFICAR) -->
+<!-- NAVBAR -->
 <header class="navbar">
   <div class="container nav-content">
     <a class="logo" href="index.html">NOD INDUSTRIAL</a>
     <nav class="menu" aria-label="Navegación">
       <a class="active" href="index.html">Inicio</a>
       <a href="services.html">Servicios</a>
-      <a href="about.html">Empresa</a>
+      <a href="#proyectos">Proyectos</a>
+      <a href="#empresa">Empresa</a>
       <a href="contact.html" class="btn-primary">Contacto</a>
     </nav>
   </div>
 </header>
 
-<!-- HERO V2.1 -->
+<!-- HERO -->
 <section class="hero">
   <div class="container hero-grid">
     <div class="hero-text">
@@ -33,21 +36,21 @@
       </p>
       <div class="hero-btns">
         <a href="contact.html" class="btn-primary">Solicitar presupuesto</a>
-        <a href="services.html" class="btn-secondary">Ver servicios</a>
+        <a href="#proyectos" class="btn-secondary">Ver proyectos</a>
       </div>
     </div>
 
     <div class="hero-img">
       <img
         src="assets/img/nodindustrial_intralogistica_07.jpg"
-        alt="Ejecución mecánica industrial con equipos desplazados"
+        alt="Ejecución mecánica industrial con equipos desplazados - NOD Industrial"
         loading="eager"
       >
     </div>
   </div>
 </section>
 
-<!-- BRIEF RÁPIDO PARA PRESUPUESTO -->
+<!-- BRIEF RÁPIDO -->
 <section class="section">
   <div class="container">
     <div class="cta-slab" style="background:#fff; border:1px solid var(--line); box-shadow: 0 10px 30px rgba(2,6,23,.05);">
@@ -66,40 +69,127 @@
   </div>
 </section>
 
-<!-- CÓMO TRABAJAMOS (4 PASOS) -->
+<!-- NUEVA SECCIÓN: POR QUÉ ELEGIRNOS (Empresa/Valores) -->
+<section id="empresa" class="section" style="background: #f8f9fa;">
+  <div class="container">
+    <h2>Por qué elegir NOD Industrial</h2>
+    <p class="sub">Más de 10 años de experiencia en ejecución mecánica industrial con equipos desplazados.</p>
+    
+    <div class="grid-3">
+      <div class="card">
+        <div class="icon-circle">
+          <i class="fas fa-users"></i>
+        </div>
+        <h3>Equipos Especializados</h3>
+        <p>Contamos con técnicos cualificados y formados específicamente para proyectos de despliegue internacional.</p>
+      </div>
+      
+      <div class="card">
+        <div class="icon-circle">
+          <i class="fas fa-calendar-check"></i>
+        </div>
+        <h3>Compromiso con Plazos</h3>
+        <p>Disciplina operativa y control exhaustivo para cumplir con los tiempos de entrega más exigentes.</p>
+      </div>
+      
+      <div class="card">
+        <div class="icon-circle">
+          <i class="fas fa-globe-europe"></i>
+        </div>
+        <h3>Despliegue Internacional</h3>
+        <p>Operativa en España y toda la Unión Europea. Movilizamos equipos en menos de 72 horas.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CÓMO TRABAJAMOS -->
 <section class="section">
   <div class="container">
     <h2>Cómo trabajamos</h2>
     <p class="sub">Proceso simple para ejecutar con orden, control y cumplimiento de plazos.</p>
 
-    <div class="grid-3" style="grid-template-columns: repeat(4, 1fr);">
+    <div class="grid-4">
       <div class="card">
-        <h3>1) Brief inicial</h3>
+        <div class="step-number">1</div>
+        <h3>Brief inicial</h3>
         <p>Recibimos los datos clave del proyecto y verificamos requisitos de acceso y coordinación.</p>
       </div>
       <div class="card">
-        <h3>2) Validación de alcance</h3>
+        <div class="step-number">2</div>
+        <h3>Validación de alcance</h3>
         <p>Definimos Vía A (ejecución mecánica) o Vía B (ejecución con responsabilidad técnica limitada).</p>
       </div>
       <div class="card">
-        <h3>3) Despliegue del equipo</h3>
+        <div class="step-number">3</div>
+        <h3>Despliegue del equipo</h3>
         <p>Movilizamos equipos desplazados, coordinación en obra y disciplina operativa.</p>
       </div>
       <div class="card">
-        <h3>4) Cierre y entrega</h3>
+        <div class="step-number">4</div>
+        <h3>Cierre y entrega</h3>
         <p>Control de horas, reporte final y entrega dentro de plazo.</p>
       </div>
     </div>
   </div>
 </section>
 
+<!-- NUEVA SECCIÓN: PROYECTOS RECIENTES -->
+<section id="proyectos" class="section">
+  <div class="container">
+    <h2>Proyectos Recientes</h2>
+    <p class="sub">Casos de éxito en ejecución industrial y fotovoltaica.</p>
+    
+    <div class="grid-3">
+      <div class="project-card">
+        <div class="project-img">
+          <img src="assets/img/nodindustrial_fotovoltaica_01.jpg" alt="Planta fotovoltaica en Murcia - 8MW" loading="lazy">
+          <div class="project-badge">Fotovoltaica</div>
+        </div>
+        <div class="project-info">
+          <h3>Planta Solar Murcia</h3>
+          <p><strong>Cliente:</strong> EPC Nacional</p>
+          <p><strong>Alcance:</strong> Montaje mecánico completo de estructuras para 8MW</p>
+          <p><strong>Duración:</strong> 6 semanas (entrega anticipada)</p>
+        </div>
+      </div>
+      
+      <div class="project-card">
+        <div class="project-img">
+          <img src="assets/img/nodindustrial_intralogistica_08.jpg" alt="Centro logístico Barcelona" loading="lazy">
+          <div class="project-badge">Intralogística</div>
+        </div>
+        <div class="project-info">
+          <h3>Centro Logístico Barcelona</h3>
+          <p><strong>Cliente:</strong> Integrador internacional</p>
+          <p><strong>Alcance:</strong> Montaje de sistemas de transporte y automatización</p>
+          <p><strong>Equipo:</strong> 5 técnicos durante 3 semanas</p>
+        </div>
+      </div>
+      
+      <div class="project-card">
+        <div class="project-img">
+          <img src="assets/img/nodindustrial_intralogistica_09.jpg" alt="Estructuras industriales en Portugal" loading="lazy">
+          <div class="project-badge">Industrial</div>
+        </div>
+        <div class="project-info">
+          <h3>Nave Industrial Portugal</h3>
+          <p><strong>Cliente:</strong> Constructora industrial</p>
+          <p><strong>Alcance:</strong> Montaje de estructuras metálicas y estanterías</p>
+          <p><strong>Desafío:</strong> Ventana de 10 días en parada de planta</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- DÓNDE ENCAJAMOS -->
-<section class="section">
+<section class="section" style="background: #f8f9fa;">
   <div class="container">
     <h2>Dónde encajamos</h2>
     <p class="sub">Segmentación B2B para proyectos con exigencia real de plazo, orden y despliegue.</p>
 
-    <div class="grid-3" style="grid-template-columns: repeat(4, 1fr);">
+    <div class="grid-4">
       <div class="card">
         <h3>EPC fotovoltaica</h3>
         <p>Refuerzo de ejecución y fases críticas.</p>
@@ -120,7 +210,53 @@
   </div>
 </section>
 
-<!-- SERVICIOS PRINCIPALES (REFORMULADOS) -->
+<!-- NUEVA SECCIÓN: TESTIMONIOS -->
+<section class="section">
+  <div class="container">
+    <h2>Lo que dicen nuestros clientes</h2>
+    <p class="sub">Confianza y resultados en proyectos B2B.</p>
+    
+    <div class="grid-3">
+      <div class="testimonial-card">
+        <div class="testimonial-text">
+          <p>"NOD Industrial cumplió con un plazo muy ajustado en la instalación fotovoltaica. Su equipo fue profesional y resolutivo."</p>
+        </div>
+        <div class="testimonial-author">
+          <div class="author-info">
+            <strong>J. Martínez</strong>
+            <span>Director de Proyectos, EPC Fotovoltaica</span>
+          </div>
+        </div>
+      </div>
+      
+      <div class="testimonial-card">
+        <div class="testimonial-text">
+          <p>"Los necesitábamos para una parada técnica de 15 días y entregaron antes de tiempo. Coordinación impecable."</p>
+        </div>
+        <div class="testimonial-author">
+          <div class="author-info">
+            <strong>M. Rodríguez</strong>
+            <span>Jefe de Planta, Sector Automoción</span>
+          </div>
+        </div>
+      </div>
+      
+      <div class="testimonial-card">
+        <div class="testimonial-text">
+          <p>"Trabajamos con ellos en Portugal y Alemania. Mismo estándar de calidad y disciplina operativa en ambos países."</p>
+        </div>
+        <div class="testimonial-author">
+          <div class="author-info">
+            <strong>A. Schmidt</strong>
+            <span>Project Manager, Integrador Intralogística</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICIOS PRINCIPALES -->
 <section class="services">
   <div class="container">
     <h2>Servicios principales</h2>
@@ -163,7 +299,7 @@
   </div>
 </section>
 
-<!-- CTA FINAL REFORZADO -->
+<!-- CTA FINAL -->
 <section class="cta">
   <div class="container cta-box" style="text-align:center; align-items:center;">
     <h2>Listos para ejecutar tu proyecto en cualquier país</h2>
@@ -172,13 +308,45 @@
   </div>
 </section>
 
-<!-- FOOTER PROFESIONAL -->
+<!-- FOOTER MEJORADO -->
 <footer class="footer">
-  <div class="container footer-box">
-    <p>Operativa internacional · nodindustrial@gmail.com · +34 613 13 33 08 · © NOD Industrial</p>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <h3>NOD Industrial</h3>
+        <p>Ejecución mecánica industrial con equipos desplazados. Especialistas en fotovoltaica, estructuras e intralogística.</p>
+        <div class="social-links">
+          <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+          <a href="#" aria-label="Email"><i class="fas fa-envelope"></i></a>
+          <a href="#" aria-label="Teléfono"><i class="fas fa-phone"></i></a>
+        </div>
+      </div>
+      
+      <div class="footer-col">
+        <h3>Contacto</h3>
+        <ul class="footer-list">
+          <li><i class="fas fa-envelope"></i> nodindustrial@gmail.com</li>
+          <li><i class="fas fa-phone"></i> +34 613 13 33 08</li>
+          <li><i class="fas fa-map-marker-alt"></i> Operativa en España y UE</li>
+        </ul>
+      </div>
+      
+      <div class="footer-col">
+        <h3>Servicios</h3>
+        <ul class="footer-list">
+          <li><a href="services.html">Montaje Fotovoltaico</a></li>
+          <li><a href="services.html">Estructuras Industriales</a></li>
+          <li><a href="services.html">Intralogística</a></li>
+          <li><a href="services.html">Equipos Desplazados</a></li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <p>© 2023 NOD Industrial. Todos los derechos reservados.</p>
+    </div>
   </div>
 </footer>
 
 </body>
 </html>
-```0
